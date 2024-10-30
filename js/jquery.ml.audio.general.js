@@ -1,0 +1,3 @@
+/* * @package   MLRAudio * @version   0.1 * @since     0.1 * @author    Matthew Lillistone <matthewlillistone.co.uk> *  */
+jQuery(document).ready(function($) {	$('#imageon').closest('table').attr('id','general');	$('#general tr').eq(3).css({'height':'65px'});	$('#general tr').eq(1).css({'height':'65px'});			if($('.form-table #imageon').prop('checked')){			$('#image_position').show();			}			else {				$('#image_position').hide();			}
+	$('#imageon').change(function(){		if ($('.form-table #imageon').prop('checked')){					$('#image_position').fadeIn(500);			}			else {			$('#image_position').fadeOut(500);			}		});			});		

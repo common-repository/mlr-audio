@@ -1,0 +1,14 @@
+/* admin styles */
+
+#ml_audio_opts .form-table tr {
+height: 50px;
+vertical-align: middle;
+}
+#ml_audio_opts .form-table th {
+font-size: 13px;
+color: #4F4F8B;
+}
+.mlr_img img {
+display: block;
+margin: 0 auto;
+}
